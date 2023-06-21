@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <!--  <iframe width="475" height="266" src="https://th.bing.com/th/id/OIP.qvw84ODsOojbdxUo_rBZIQHaEK?pid=ImgDet&rs=1"></iframe> --> 
+  <!-- flex container flex auto displays wed in middle and sat & sun in bottom -->                               
+    <div class="flex-container">
+        <div class="box box1">  Mon</div>
+        <div class="box box2">  Tue</div>
+        <div class="box box3">  Wed</div>
+        <div class="box box4">  Thu</div>
+        <div class="box box5">  Fri</div>
+        <div class="box box6">  Sat</div>
+        <div class="box box7">  Sun</div>
+      </div>
+</body>
+<style>
+    .box {
+        background-color: rgb(20, 237, 164);
+        border-radius: 5px;
+        margin: 2px;
+        padding: 10px;
+    }
+    .flex-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    gap: 10px;
+}
+   .box3 {
+    background-color: blanchedalmond;
+    align-self: center;
+}
+
+.flex-container {
+flex: 0 1 auto;    
+}
+
+   .box3 {
+    background-color: blanchedalmond;
+    align-self: center;
+    flex: 1 1 auto;
+}
+</style>
+</html>

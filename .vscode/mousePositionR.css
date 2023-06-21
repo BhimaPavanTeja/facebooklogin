@@ -1,0 +1,41 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .Header {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    background-color: rgb(92, 207, 233);
+    color: rgb(15, 14, 14);
+    text-shadow: 2px 2px #f8f8f8;
+  }
+  
+  .BasicTracker {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .PointMouseTracker {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #666;
+    text-shadow: 1px 1px #f8f8f8;
+  }  

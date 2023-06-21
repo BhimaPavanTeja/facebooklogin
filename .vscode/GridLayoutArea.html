@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header> Header </header> 
+
+    <nav class="nav-bar"> <b>Navigation</b> </nav> 
+
+    <main> <p><b>Main</b></p> <br>
+        <ol type="1">
+        rectangle <br>
+        parallelogram <br>
+        square <br>
+        circle <br>
+        rhombus <br>
+        cuboid <br>
+        hexogonal <br>
+        pentagonal <br>
+        triangle <br>
+        cube <br>
+        pyramid <br>
+        trigonal <br>
+        these are shapes <br>
+        </ol>
+    </main> 
+
+    <footer> Footer </footer> 
+</body>
+<style>
+    body {
+        display: grid;
+        height: 200px;
+        grid-template-areas: "head head"
+                             "nav main"
+                             "footer footer";
+        grid-template-rows: 30px 1fr 30px;
+        grid-template-columns: 150px 1fr;
+    }
+    header {
+        grid-area: head;
+        background-color: lightsalmon;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .nav-bar {
+        grid-area: nav;
+        background-color: lightblue;
+        border-radius: 10px;
+        text-align: center;
+    }
+    main {
+        grid-area: main;
+        background-color: lightyellow;
+        border-radius: 10px;
+    }
+    footer {
+        grid-area: footer;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+</style>
+</html>

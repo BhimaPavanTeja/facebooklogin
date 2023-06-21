@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Book a Table</h1>
+        <form method="post">
+            <div>
+                <label for="Booking_date">Booking Date</label>
+                <input type="date" id="Booking_date" name="Booking_date">
+            </div>
+            <div>
+                <label for="Booking_people">number of people</label>
+                <input type="range" id="Booking_people" name="Booking_people" min="1" max="10" value="4" oninput="this.nextElementSibling.value=this.value">
+                <output>4</output>
+            </div>
+            <div>
+                <label>Location</label>
+                <input type="Booking_location" name="Booking_location" list="locations">
+                <datalist id="locations">
+                    <option value="Downtown"></option>
+                    <option value="Uptown"></option>
+                </datalist>        
+            </div>
+            <div>
+                <button type="submit">Book Table</button>
+            </div>
+        </form>
+        <form>
+            <div>
+              <label for="rating">Rating</label>
+              <input type="range" min="1" max="5" id="rating" name="rating" list="ratings">
+              <datalist id="ratings">
+                  <option value="1" label="1"></option>
+                  <option value="2"></option>
+                  <option value="3"></option>
+                  <option value="4"></option>
+                  <option value="5" label="5"></option>
+              </datalist>
+            </div>
+            <button type="submit">Submit Rating</button>
+          </form>
+</body>
+</html>

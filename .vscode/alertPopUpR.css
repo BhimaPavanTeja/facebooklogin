@@ -1,0 +1,57 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  header {
+    background-color: #7ed6ec;
+    padding: 20px;
+    font-size: 32px;
+  }
+  
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .Alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 300px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .Alert h4 {
+    margin-top: 0;
+  }
+  
+  .Alert p {
+    margin: 10px 0;
+  }
+  
+  button {
+    background-color: #ffcc66;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #ffa366;
+  }
+  
+  

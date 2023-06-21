@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Wix+Madefor+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+            <p><b style="color: blue; font-size: 70px;" id="face">facebook</b><br>Facebook helps you connect and share with the people in your life.</p>
+    <form action="submit">
+            <input type="text" id="text" placeholder="email address or  phone number"> <br>
+            <input type="password" id="password" placeholder="Password"> <br>
+            <button class="one">Log In</button> <br>
+            <a href="#">forgotten password?</a><br>
+            <button class="two">Create new account</button>
+    </form>
+</body>
+<style>
+* {
+    background-color: rgb(234, 238, 241);
+}
+b {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+p {
+    float: left;
+    margin-left: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    position: relative;
+    padding: 10px;
+    margin-top: 150px;
+    color: rgb(8, 8, 8);
+    font-family: 'Lato', sans-serif;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+ form {
+    float: right;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-right: 70px;
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px black;
+ }
+input {
+    border-style: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 85%;
+}
+.one {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 91%;
+    border-radius: 4px;
+    background-color: rgb(33, 149, 226);
+    font-size: 17px;
+    color: white;
+}
+a {
+    margin: 10px;
+    background-color: white;
+    text-decoration: none;
+}
+a:hover {
+    font-weight: 600;
+}
+.two {
+    padding: 10px;
+    margin: 15px;
+    margin-left: 90px;
+    width: 50%;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgb(33, 164, 81);
+    color: white;
+    
+}
+input[type="text"]:focus-visible {
+  background-color: rgb(213, 226, 242);
+}
+input[type="password"]:focus-visible {
+  background-color: rgb(213, 226, 242);
+}
+.one:hover {
+    background-color: rgb(6, 132, 158);
+    cursor: pointer;
+    font-weight: 600;
+}
+.two:hover {
+    background-color: rgb(7, 118, 20);
+    cursor: pointer;
+    font-weight: 600;
+}
+@media only screen and (max-width:500px) {
+    form {
+    float: none;
+    display: inline-block;
+    width: 300px;
+    margin-top: 0px;
+    margin-left: 4px;
+    margin-right: 0px;
+    }
+    p {
+    margin-left: 25px;
+    width: 80%;
+    margin-top: 10px;
+    color: rgb(8, 8, 8);
+    }
+    .two {
+        text-align: center;
+        margin-left: 80px;
+    }
+}
+</style>
+</html>

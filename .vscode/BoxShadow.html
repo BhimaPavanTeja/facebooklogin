@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <li><i class="fa-solid fa-lemon"> Little Lemon</i></li>
+        <p><b>Basic info about little lemon</b></p>
+        <div>About</div>
+        <ul>
+            <li>Based on chicago, illinois</li>
+            <li>The chefs draw inspiration from Italian, greek and turkish culture</li>
+            <li>The restaurant has a rustic and relaxed atomsphere.</li>
+        </ul>
+        <p><b>Info about the owners</b></p>
+        <div>Employee/Owner</div>
+        <ul>
+            <li>Liitle lemon is owned by two brothers, mario and adrian</li>
+            <li>Mario relies on family recipes and his experience as a cheff in italy</li>
+        </ul>
+</body>
+<style>
+    * {
+        list-style: none;
+    }
+    body {
+        color: #333333;
+        background-image: url(https://i.pinimg.com/originals/85/e0/b3/85e0b3e499c971cbbc3e8b258e3ac71b.jpg);
+        font-family: cambria;
+    }
+    div ~ ul { /*sibling selector */
+        background-color: black;
+        color: white;
+        box-shadow: inset 1px 1px 3px 3px rgb(245, 216, 242);
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+
+</style>
+</html>

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://th.bing.com/th/id/OIP.M9AsZ7Sm6Qq-LXpY92Tt2AHaEK?pid=ImgDet&rs=1");
+    height: 100vh;
+    background-size: cover;
+}
+
+ul, li {
+    text-align-last: justify;
+}
+
+.menu-card {
+    text-align: center;
+    background-color: rgb(171, 234, 243);
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 60%;
+    height: 90%;
+    float: left;
+}
+
+.body-part-card {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 60%;
+    height: 92%;
+    float:left;
+}
+
+button {
+    width: 138px;
+    height: 36px;
+    background-color: #25b1cc;
+    color: white;
+    font-weight: 200px;
+    border-width: 0px;
+    border-radius: 10px;
+}

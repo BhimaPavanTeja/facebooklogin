@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav" id="nav-bar">
+            <div class="logo">
+                <img src="data:image/png;base64,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"
+                    alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Membership</a></li>
+                </ul>
+            </div>
+            <div class="login">
+                <button><a href="">login</a></button>
+                <button><a href="">sign up</a></button>
+            </div>
+        </div>
+        <div>
+            <img src="https://i.ytimg.com/vi/553Q6A-XdcU/maxresdefault.jpg"
+                style="width: 50%; margin: 50px; text-align: center;">
+            <img src="https://i.ytimg.com/vi/553Q6A-XdcU/maxresdefault.jpg"
+                style="width: 50%; margin: 50px; text-align: center;">
+        </div>
+    </div>
+</body>
+<style>
+    .container {
+        font-family: 'Lato', sans-serif;
+    }
+
+    .nav {
+        position: sticky;
+        top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        background-color: aqua;
+        border-radius: 30px;
+        height: 100px;
+        box-shadow: 0px 2px 3px black;
+    }
+
+    .logo img {
+        padding: 20px;
+        height: 40%;
+        border-radius: 30px;
+    }
+
+    .menu ul li {
+        list-style: none;
+        padding: 20px;
+        font-size: 25px;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .menu {
+        margin-left: -100px;
+    }
+
+    .menu li a {
+        display: inline-block;
+        color: #000;
+        text-decoration: none;
+
+    }
+
+    .menu li a::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #000;
+        transition: width .3s;
+    }
+
+    .menu li a:hover::after {
+        width: 100%;
+    }
+
+
+    .login {
+        margin-left: 70px;
+        padding: 27px;
+    }
+
+    .login button {
+        margin-left: 20px;
+        background-color: black;
+        width: 100px;
+        height: 45px;
+        border-radius: 25px;
+        border: none;
+    }
+
+    .login button a {
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .login button:hover {
+        background-color: rgb(4, 100, 68);
+    }
+</style>
+
+<script type="text/javascript">
+    window.onscroll = function () {
+        let a = document.getElementById('nav-bar');
+        a.style.borderRadius = '0px';
+        a.style.boxShadow = '0px 2px 7px black';
+        a.style.marginRight = '-20px';
+        a.style.marginLeft = '-20px';
+    };
+
+</script>
+
+</html>
